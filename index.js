@@ -562,6 +562,7 @@
             this.currentSpeed += this.config.ACCELERATION;
           }
         } else {
+          //This adds lives to the Trex. LIVES was added to the Trex.config
           if (Trex.config.LIVES > 0) {
             Trex.config.LIVES--;
           } else {
@@ -1482,6 +1483,7 @@
       speedOffset: .8
     },
     {
+      //Copied the 'PTERODACTYL' above and changed the type to CACTUS_SMALL
       type: 'CACTUS_SMALL',
       width: 46,
       height: 40,
@@ -1560,6 +1562,7 @@
     START_X_POS: 50,
     WIDTH: 44,
     WIDTH_DUCK: 59,
+    //Added LIVES for multiple lives
     LIVES: 10
   };
 
